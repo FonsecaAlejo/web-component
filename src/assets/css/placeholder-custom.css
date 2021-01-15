@@ -1,0 +1,34 @@
+/* placeholder loading reglas generales  */
+.ph-item-rounded [class*="ph-col"]{
+  border-radius: .19em;
+}
+.ph-row div{
+  background-color: var(--bg-light-grey);
+}
+/* ph tables */
+.ph-item-table{
+  padding-left: 0;
+  padding-right: 0;
+  border-color: transparent;
+}
+.ph-table-col{
+  padding-left: 0;
+  padding-right: 0;
+}
+.ph-item-table-header [class*="ph-col"]{
+  margin-bottom: 9px;
+  background-color: rgba(0,0,0,.08);
+}
+.ph-item-table-header [class*="ph-col"].big{
+  height: 25px;
+}
+.ph-item-table-body [class*="ph-col"]{
+  height: 15px;
+  margin-bottom: 5px;
+  background-color: rgba(0,0,0,.05);
+}
+.ph-item-table .ph-row [class*="ph-col"]{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+}
